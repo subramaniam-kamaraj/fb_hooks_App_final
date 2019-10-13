@@ -1,0 +1,20 @@
+{
+  "timepost": [
+    {
+      "id": 1,
+      "write": "Hi there..how are you"
+    },
+    {
+      "id": 2,
+      "write": "watching Movie"
+    },
+    {
+      "id": 3,
+      "write": "beach"
+    },
+    {
+      "id": 4,
+      "write": "with buddies"
+    }
+  ]
+}
