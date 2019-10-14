@@ -25,10 +25,10 @@ const PostApp = () => {
       alert("type something in timeline box");
     } else {
       axios
-        .post("http://localhost:4000/timePost", { write: dat })
+        .post("http://localhost:4000/timePost", { write: title })
         .then(success => {
           console.log(success);
-          postData([...title, success.data]);
+          postData([...dat, success.data]);
           settitle("");
         }, []);
     }
